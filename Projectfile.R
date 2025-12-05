@@ -21,5 +21,9 @@ data_clean <- modern_renewable_energy_consumption %>%
 cat("\nMissing values after median imputation:\n")
 print(colSums(is.na(data_clean)))
 
+data_clean <- data_clean %>% mutate(across(all_of(numeric_cols), ~tidyr::replace_na(.x, median(.x, na.rm = TRUE))))
+
+cat("\nMissing values per column:\n")
+print(colSums(is.na(data_clean)))
 
 
