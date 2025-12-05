@@ -35,3 +35,10 @@ hydro_data <- data_clean %>%
   filter(Country %in% c("Brazil", "India"))
 
 print(hydro_data %>% head())
+
+hydro_wide <- hydro_data %>%
+  spread(
+    key   = Country,
+    value = `Hydro Power Generation`
+  ) %>%
+  arrange(Year)
