@@ -34,3 +34,4 @@ hydro_data <- data_clean %>%
   ) %>%
   filter(Country %in% c("Brazil", "India"))
 
+print(hydro_data %>% head())
