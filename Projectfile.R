@@ -26,4 +26,11 @@ data_clean <- data_clean %>% mutate(across(all_of(numeric_cols), ~tidyr::replace
 cat("\nMissing values per column:\n")
 print(colSums(is.na(data_clean)))
 
+hydro_data <- data_clean %>%
+  select(
+    Country = Entity,                     
+    Year,
+    `Hydro Power Generation` = `Hydropower (terawatt-hours)`  
+  ) %>%
+  filter(Country %in% c("Brazil", "India"))
 
