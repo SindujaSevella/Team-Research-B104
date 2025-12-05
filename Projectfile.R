@@ -11,4 +11,15 @@ numeric_cols <- modern_renewable_energy_consumption %>%
   select(where(is.numeric)) %>%
   names()
 
-print(numeric_cols)
+numeric_cols
+
+data_clean <- modern_renewable_energy_consumption %>%
+  group_by(Entity) %>%
+  mutate(across(all_of(numeric_cols), ~tidyr::replace_na(.x, median(.x, na.rm = TRUE)))) %>%
+  ungroup()
+
+cat("\nMissing values after median imputation:\n")
+print(colSums(is.na(data_clean)))
+
+
+
