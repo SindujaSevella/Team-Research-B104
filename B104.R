@@ -21,4 +21,15 @@ group_summary <- aggregate(
   FUN = function(x) c(mean = mean(x), sd = sd(x), n = length(x))
 )
 print(group_summary)
-
+ggplot(ds, aes(x = Year,
+               y = Solar (terawatt-hours),
+               colour = Entity,
+               group = Entity)) +
+  geom_line() +
+  labs(
+    title = "Solar Electricity Generation Over Time\nEurope vs Asia Pacific",
+    x = "Year",
+    y = "Solar Electricity Generation (TWh)",
+    colour = "Region"
+  ) +
+  theme_minimal()
