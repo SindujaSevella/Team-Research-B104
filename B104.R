@@ -33,3 +33,13 @@ ggplot(ds, aes(x = Year,
     colour = "Region"
   ) +
   theme_minimal()
+
+ggplot(ds, aes(x = `Solar (terawatt-hours)`)) +
+  geom_histogram(binwidth = 10) +
+  facet_wrap(~ Entity, nrow = 2) +
+  labs(
+    title = "Histograms of Solar Electricity Generation by Region",
+    x = "Solar Electricity Generation (TWh)",
+    y = "Frequency"
+  ) +
+  theme_minimal()
