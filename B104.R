@@ -1,9 +1,12 @@
 
-t_test_result <- t.test(`Solar (terawatt-hours)` ~ Entity, data = ds)
+library(ggplot2)
+
+data <- read.csv("modern-renewable-energy-consumption.csv",
+                 check.names = FALSE)   
 
 
-print(t_test_result)
-
-group_summary <- aggregate(
-  `Solar (terawatt-hours)` ~ Entity,
-  data = ds,
+ds <- subset(
+  data,
+  Entity %in% c("Europe", "Asia Pacific") &
+    !is.na(`Solar (terawatt-hours)`)
+)
