@@ -1,1 +1,24 @@
+1. Introduction
+
+1.1 Problem Statement and Research Motivation
+
+Due to environmental concerns, climate change, and the need for sustainable energy security, the demand for renewable energy has increased dramatically on a global scale. Due to policy support and declining technology costs, solar power is becoming recognised as a key player in the global clean energy transition. However, there are significant regional differences in the growth rates of solar electricity, which begs the question of whether some regions are progressing more quickly than others. Comprehending these distinctions is essential for forecasting trends in energy development and guiding future investment and policy choices. According to earlier studies, regional variation analysis can reveal differences in solar adoption and direct strategic planning for renewable energy.
+
+1.2 The Dataset
+
+The "modern-renewable-energy-consumption" dataset, which tracks global renewable energy indicators by region over time, is used in this study. Only data pertaining to the production of solar electricity, expressed in terawatt-hours (TWh), for the regions of Europe and Asia Pacific were extracted for this project. The dataset allows for a direct comparison of the trends in solar electricity generation between the two regions and offers a continuous time-series spanning several decades.
+
+1.3 Research Question
+
+"Is there a difference in the mean solar electricity generation between Europe and Asia Pacific?" 
+is the research question for this study. The study looks at whether one area regularly produces more solar energy than the other.
+
+
+
+
+1.4 Hypotheses
+
+H₀ (Null hypothesis): There is no difference in the mean solar electricity generation between Europe and Asia Pacific.
+H₁ (Alternative hypothesis): There is a difference in the mean solar electricity generation between Europe and Asia Pacific.
+A hypothesis test was employed to compare the mean solar electricity generation between the two regions in order to statistically assess the research question. According to the null hypothesis (H₀), the mean solar electricity generation in Europe and Asia Pacific is the same. According to the alternative hypothesis (H₁), the two regions' mean solar electricity generation differs significantly. To determine whether the observed differences in sample means represent true regional variation or are merely the result of random variation in the data, a two-sample Welch t-test is used.
 
