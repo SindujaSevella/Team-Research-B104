@@ -58,4 +58,26 @@ A Welch two-sample t-test was used to see whether the mean solar electricity gen
 
 The null hypothesis cannot be rejected since the p-value of 0.8609 is significantly higher than the 0.05 significance level. This indicates that there is insufficient data to draw the conclusion that the average solar electricity generation in Europe and Asia Pacific is different. Despite the fact that Asia Pacific exhibits larger extreme values in subsequent years, there is no discernible statistical difference in mean generation due to the total variability within both datasets. Therefore, rather than a persistent difference between the two regions, observed discrepancies in sample averages are probably the result of random variation.
 
+5. Evaluation – Group’s Experience at 7COM1079
+
+5.1 What Went Well
+
+Each member of the group contributed to the data analysis, interpretation, and report writing, and they all worked well together. In general, there was clear communication, and duties were distributed equitably according to individual strengths. The group improved their understanding of statistical testing and R programming, particularly with regard to datasets related to renewable energy. The final product demonstrated a common knowledge of the study issue, dataset, and analytical techniques, and weekly talks helped to guarantee progress.
+
+5.2 Points for Improvement
+
+The group occasionally had trouble organising task deadlines and reaching consensus, despite the fact that collaboration was generally effective. A better organised task distribution may have increased efficiency throughout the analysis stage, and earlier planning might have decreased last-minute workload. In order to keep everyone on the same page and informed on task expectations, future projects would also benefit from more frequent documentation of progress and additional brief meetings.
+
+5.3 Group’s Time Management
+
+Over the course of the project, time management gradually improved. Selecting the dataset and research question was a slow process at first, but after roles were allocated, the workflow became more structured. Establishing more precise goals early on could facilitate future project progress and prevent time constraints close to submission deadlines.
+
+5.4 Project’s Overall Judgement
+
+The project was successful overall. In order to answer the research question, the team generated insightful visualisations, used suitable statistical techniques, and accomplished the targeted study goal. The project demonstrated the value of preparation, teamwork, and consistent communication while working with actual datasets and statistical analysis.
+
+
+5.5 Comment on the GitHub Log Output
+
+The GitHub log demonstrates consistent contributions throughout the project's duration, providing proof of cooperation and shared accountability. The log, which is part of Appendix B, uses commit messages to show how the analysis and report evolved. To highlight key project modifications and their effects on the finished product, three noteworthy commits were chosen.
 
