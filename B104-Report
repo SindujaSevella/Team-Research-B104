@@ -39,8 +39,6 @@ Prior studies show different patterns of solar development, but they do not defi
 
 In order to compare Europe and Asia Pacific, a line graph of solar electricity generation over time was created. This graph shows long-term trends and regional variations in magnitude. In order to facilitate the comparison of mean generation levels, histograms were incorporated to display the distribution of solar electricity values within each region.
 
- 
-
 
 3.2 Additional Information Relating to Understanding the Data
 Both locations begin with very little solar electricity output, but over time, particularly after the 2000s, it rises rapidly, as the line graph demonstrates. Europe shows more gradual but continuous expansion, while Asia Pacific shows a stronger upward slope in later years. The statistical comparison is put in context by these visual patterns.
@@ -49,4 +47,15 @@ Both locations begin with very little solar electricity output, but over time, p
 With the majority of data clustered below 50 TWh and a few very high values in recent years, the histograms show that both distributions are strongly right-skewed. Compared to Europe, Asia Pacific exhibits more extreme upper-end values, which visually suggests stronger solar output but does not verify if the mean difference is statistically significant.
 
 
- 
+4. Analysis
+
+4.1 Statistical Test Used and Output
+
+A Welch two-sample t-test was used to see whether the mean solar electricity generation in Europe and Asia Pacific differed significantly. Since it does not imply equal variances and compares the means of two independent groups, this test is suitable. There was no statistically significant difference in the mean solar electricity generation between the two regions, according to the results, which showed a test statistic of t = 0.17568 with df = 91.161 and a p-value = 0.8609.
+
+
+4.2 Decision Based on the p-Value and Interpretation
+
+The null hypothesis cannot be rejected since the p-value of 0.8609 is significantly higher than the 0.05 significance level. This indicates that there is insufficient data to draw the conclusion that the average solar electricity generation in Europe and Asia Pacific is different. Despite the fact that Asia Pacific exhibits larger extreme values in subsequent years, there is no discernible statistical difference in mean generation due to the total variability within both datasets. Therefore, rather than a persistent difference between the two regions, observed discrepancies in sample averages are probably the result of random variation.
+
+
