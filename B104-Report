@@ -31,3 +31,22 @@ The growth of solar power generation in various parts of the world has been the 
 2.2 Why the RQ is of Interest
 
 Prior studies show different patterns of solar development, but they do not definitively establish if the mean electricity generation in the two areas differs significantly. There is a lack of knowledge regarding whether actual energy production varies significantly between regions because the majority of studies evaluate installation capacity or investment levels rather than actual electricity output. Closing this gap is crucial because statistical validation of regional variations may guide the creation of energy policies, promote focused investments in renewable energy, and aid in long-term sustainability planning. Therefore, by offering a direct, data-driven comparison of solar electricity generation between Europe and Asia Pacific, the research topic expands on the body of previous literature.
+
+
+3. Visualisation
+
+3.1 Appropriate Graphs for the Research Question
+
+In order to compare Europe and Asia Pacific, a line graph of solar electricity generation over time was created. This graph shows long-term trends and regional variations in magnitude. In order to facilitate the comparison of mean generation levels, histograms were incorporated to display the distribution of solar electricity values within each region.
+
+ 
+
+
+3.2 Additional Information Relating to Understanding the Data
+Both locations begin with very little solar electricity output, but over time, particularly after the 2000s, it rises rapidly, as the line graph demonstrates. Europe shows more gradual but continuous expansion, while Asia Pacific shows a stronger upward slope in later years. The statistical comparison is put in context by these visual patterns.
+3.3 Useful Information for Data Understanding
+
+With the majority of data clustered below 50 TWh and a few very high values in recent years, the histograms show that both distributions are strongly right-skewed. Compared to Europe, Asia Pacific exhibits more extreme upper-end values, which visually suggests stronger solar output but does not verify if the mean difference is statistically significant.
+
+
+ 
